@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.directors-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.director {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+}
+
+.director h3 {
+    margin-top: 0;
+}
+
+.director a {
+    color: blue;
+}
